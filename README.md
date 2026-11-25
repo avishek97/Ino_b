@@ -1,0 +1,40 @@
+- Ingest + Normalize
+    - Deduplication
+    - Format standarization
+    - Metadata extraction
+    - Versioning
+- Hybrid Retrieval
+    - BM25
+    - Embeddings
+- ANN
+    - ANN: fasr candidate fetch
+    - Reranker: deep scoring
+    - Cross-encoder
+- Source Confidence
+    - Freshness Score
+    - Trust Score
+    - Retrieval consistency
+- Constrained generation
+    - Only Retrieved context
+    - no external knowledge
+    - no assumptions
+- Citation-Backed
+    - Every claim linked
+    - Doc + page + timestamp
+    - Auditable outputs
+- Hallucination Fallback
+    - Threshould check
+    - "Insufficient evidence found"
+    - Better than wrong answer
+- Continuous Evals
+    - Adversarials queries
+    - Recall benchmarks
+    - Hallucination tracking
+- Caching + Memory
+    - High-frequency cache
+    - Retrieval paths cache
+    - Latency wins
+- Observability
+    - Trace retrieval
+    - Chunk ranking logged
+    - failure dashboard
