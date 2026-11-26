@@ -5,5 +5,19 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "boto3>=1.44.11",
+    "chromadb>=1.5.9",
+    "dotenv>=0.9.9",
     "fastapi>=0.165.0",
+    "langchain>=1.5.2",
+    "langchain-chroma>=1.2.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.8.4",
+    "langchain-openai>=1.8.5",
+    "psycopg>=3.3.9",
+    "pydantic>=2.14.4",
+    "pymupdf>=2.1",
+    "sqlalchemy>=2.1.9",
+    "uuid>=1.30",
+    "uvicorn>=0.54.0",
 ]
